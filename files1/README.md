@@ -5,7 +5,7 @@ A comprehensive RNN implementation for detecting fileless malware using behavior
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ```bash
 # 1. Clone or extract this package
@@ -23,7 +23,7 @@ python3 rnn_fileless_malware_detection.py
 
 ---
 
-## 📋 Requirements
+##  Requirements
 
 ### System Requirements
 - **OS:** Ubuntu 18.04+ (tested on Ubuntu 20.04/22.04/24.04)
@@ -44,7 +44,7 @@ All dependencies are listed in `requirements.txt`:
 
 ---
 
-## 🔧 Installation
+##  Installation
 
 ### Method 1: Automated Setup (Recommended)
 
@@ -84,7 +84,7 @@ mkdir -p data outputs logs
 
 ---
 
-## 📂 Directory Structure
+##  Directory Structure
 
 ```
 rnn-malware-detection/
@@ -105,7 +105,7 @@ rnn-malware-detection/
 
 ---
 
-## 📊 Dataset Format
+##  Dataset Format
 
 ### CSV Dataset (newDataset.csv)
 Your CSV file should have the following structure:
@@ -133,7 +133,7 @@ Additional malware samples in Excel format with the same column structure.
 
 ---
 
-## 🎯 Usage
+##  Usage
 
 ### Basic Usage
 
@@ -189,7 +189,7 @@ model_types = ['simple_rnn', 'lstm', 'gru', 'bidirectional_lstm']
 
 ---
 
-## 📈 Output Files
+##  Output Files
 
 After running, check the `outputs/` directory:
 
@@ -222,7 +222,7 @@ outputs/
 
 ---
 
-## 🔍 Understanding Results
+##  Understanding Results
 
 ### Performance Metrics
 
@@ -261,7 +261,7 @@ From our test results:
 
 ---
 
-## 🛠️ Troubleshooting
+##  Troubleshooting
 
 ### Common Issues
 
@@ -313,7 +313,7 @@ chmod 755 outputs logs
 
 ---
 
-## 🔬 Customization & Extension
+##  Customization & Extension
 
 ### Adding New Features
 
@@ -365,7 +365,7 @@ grid = GridSearchCV(estimator=model, param_grid=param_grid)
 
 ---
 
-## 📚 Additional Resources
+##  Additional Resources
 
 ### Documentation
 - [TensorFlow RNN Guide](https://www.tensorflow.org/guide/keras/rnn)
@@ -384,7 +384,7 @@ grid = GridSearchCV(estimator=model, param_grid=param_grid)
 
 ---
 
-## 🐛 Debugging
+##  Debugging
 
 ### Enable Verbose Output
 
@@ -420,7 +420,7 @@ python3 -c "import tensorflow as tf; print(tf.__version__); print('GPU Available
 
 ---
 
-## 📊 Performance Benchmarks
+##  Performance Benchmarks
 
 **Test Environment:**
 - Ubuntu 22.04 LTS
@@ -438,7 +438,7 @@ python3 -c "import tensorflow as tf; print(tf.__version__); print('GPU Available
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 ### Reporting Issues
 If you encounter bugs or have feature requests:
@@ -457,13 +457,13 @@ Suggestions for enhancement:
 
 ---
 
-## 📜 License
+##  License
 
 This project is provided as-is for research and educational purposes. Ensure compliance with your organization's security policies before deploying to production.
 
 ---
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - TensorFlow/Keras team for the deep learning framework
 - Security researchers for fileless malware analysis techniques
@@ -471,7 +471,7 @@ This project is provided as-is for research and educational purposes. Ensure com
 
 ---
 
-## 📞 Support
+##  Support
 
 For questions or issues:
 1. Check this README thoroughly
@@ -481,7 +481,7 @@ For questions or issues:
 
 ---
 
-## 🎓 Learning Resources
+##  Learning Resources
 
 ### Getting Started with RNNs
 1. **Basics:** Start with Simple RNN to understand fundamentals
